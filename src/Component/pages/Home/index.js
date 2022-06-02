@@ -10,6 +10,13 @@ import Objects from '../../ChitSeatTutorial/ObjectVariable/Objects';
 import PlusMinus from '../../ChitSeatTutorial/PlusMinus';
 import ArrayDip from '../../ChitSeatTutorial/UseLayoutEffect/ArrayDip';
 import TableAdmin from '../TableAdmin';
+import BarSize from '../../ChitSeatTutorial/UseReducer/BarSize';
+import ImitateSetState from '../../ChitSeatTutorial/setState/ImitateSetState';
+import CallBack from '../../ChitSeatTutorial/UseCallback/CallBack';
+import WorkOfUseRef from '../../ChitSeatTutorial/UseRef/WorkOfUseRef';
+import HoldStringValue from '../../ChitSeatTutorial/UseRef/HoldStringValue';
+import TimerWithRefId from '../../ChitSeatTutorial/UseRef/TimerWithRefId';
+import FetchData from '../../ChitSeatTutorial/SetIntervalDataFetch/FetchData';
 
 const Home = () => {
   return (
@@ -45,7 +52,7 @@ const Home = () => {
 
         </div>
         <hr />
-        <div style={{ display: "flex", justifyContent: "space-between"}} >
+        <div style={{ display: "flex", justifyContent: "space-between" }} >
           <div>
             <WithoutArray />
           </div>
@@ -55,9 +62,34 @@ const Home = () => {
           <div>
             <ArrayDip />
           </div>
+          <div>
+            <BarSize />
+          </div>
           <hr />
-        </div>
+          <div>
+            <ImitateSetState />
+          </div>
 
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div>
+            <CallBack />
+          </div>
+          <div>
+            <WorkOfUseRef/>
+          </div>
+          <div>
+            <HoldStringValue/>
+          </div>
+          <div>
+            <TimerWithRefId/>
+          </div>
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div>
+          <FetchData/>
+          </div>
+        </div>
       </div>
     </div>
   );
